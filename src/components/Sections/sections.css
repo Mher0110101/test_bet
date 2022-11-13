@@ -1,0 +1,34 @@
+.section{
+    width: 98%;
+    height: 30vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    
+}
+
+.oneSection{
+    width: 25%;
+    text-align:center;
+    border-left: 0.8px solid rgb(173, 173, 173);
+    font-size: 75px;
+    font-family: serif;
+    flex-wrap: wrap;
+    
+    
+}
+.oneSection p{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.bottomicon{
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+}
+.bottomicon img{
+   margin-right: 5px;
+}

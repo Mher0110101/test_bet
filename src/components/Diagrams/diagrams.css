@@ -1,0 +1,33 @@
+.diagramsArea{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2a2a2a;
+}
+.leftDiagram{
+   
+    width: 38%;  
+    height: 45vh;    
+    color: rgb(255, 255, 255);
+    
+}
+.rightDiagram{
+    width: 350px;  
+    height: 45vh;  
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    
+}
+
+.worldMap{
+    
+    width: 35%;
+    /* height: 55vh; */
+    background-image: url("https://pixy.org/src/5/thumbs350/58782.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 10% ;
+}

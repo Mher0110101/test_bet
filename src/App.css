@@ -1,0 +1,78 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+
+@media only screen and (max-width:1200px){
+  .oneSection{
+      width: 21%;    
+      font-size: 65px;
+      font-family: serif;
+      flex-wrap: wrap;
+      
+      
+  }
+  .section{
+      width: 100%;
+      height: 30vh;    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      vertical-align: middle;
+      flex-wrap: wrap;
+      
+  }
+}
+@media only screen and (max-width:900px){
+  .oneSection{
+      width: 200px;      
+      font-size: 50px;
+      font-family: serif;
+      flex-wrap: wrap;
+      
+      
+  }
+  .section{
+      width: 100%;
+      height: 30vh;    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      vertical-align: middle;
+      flex-wrap: wrap;
+      
+  }
+  .user div{
+      font-size: 10px;
+  }
+  .like{
+      font-size: 10px;
+      
+  }
+}
+@media screen and (min-width: 480px) {
+  body {      
+    width: 100vw;
+    height: 90vh;          
+  }
+  .oneSection{
+    width: 100px;      
+    font-size: 50px;
+    font-family: serif;
+    flex-wrap: wrap;
+     
+  }
+}
